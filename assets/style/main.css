@@ -86,15 +86,25 @@ header h4{
     background-color: white;
     border-left: solid rgb(170, 85, 6);
     width: 30%;
-  }
-.parallax-header{
-    height: 100%;
 }
 #map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+    height: 100%;  /* The height is 400 pixels */
+    width: 30%;  /* The width is the width of the web page */
    }
-
+parallax-side{
+    position: absolute;
+    height: 100;
+}
+.social ul{
+    display: flex;
+    flex-direction: row;
+}
+.social-link{
+    width: 1em;
+    height: 1em;
+    background-color: grey;
+    border-radius: 100%;
+}
 /* Border Fade */
 .hvr-border-fade {
     display: inline-block;
